@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(../images/bg-body.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 270px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+header #logo {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #logo img {
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 180px;
+    height: 50px;
+    background-color: #1C1C1C;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+main #banner {
+    width: 90%;
+    height: 360px;
+    background-image: url(../images/img-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+main #banner p {
+    display: none;
+}
+
+main #produtos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+main #produtos article {
+    display: inline-block;
+    width: 380px;
+}
+
+main #produtos article img {
+    width: 100%;
+}
+
+main #produtos article h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main #produtos article button {
+    background-color: #1C1C1C;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav {
+    background-color: #FF0000;
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+}
+
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+footer nav ul li {
+    list-style-type: none;
+}
+
+footer nav ul li a {
+    display: inline-block;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
