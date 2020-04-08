@@ -1,27 +1,8 @@
-<?php
+<?php 
 
-$produtos = [
-	[
-		"nome" => "Lagosta",
-		"descricao" => "Lagosta da mar cáspi, cozida no vapor de vacas suecas",
-		"img" => "images/lagosta.jpg"
-	],[
-		"nome" => "Camarão na moranga",
-		"descricao" => "Texto descritivo do prato camarão na moranga",
-		"img" => "images/camarao.jpg"
-	],[
-		"nome" => "Feijoada de Frutos do Mar",
-		"descricao" => "Ninguém gosta desse prato... mas o chef insiste",
-		"img" => "images/feijoada.jpg"
-	],[
-		"nome" => "Cuzcuz",
-		"descricao" => "Texto que descreve de uma forma insana o que é simples: um Cuzcuz",
-		"img" => "images/cuzcuz.jpg"
-	]
-]
+include("pratos.php");
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
