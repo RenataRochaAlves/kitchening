@@ -1,6 +1,7 @@
 <?php 
 
 include("pratos.php");
+include("menu.php");
 
 ?>
 <!DOCTYPE html>
@@ -18,12 +19,9 @@ include("pratos.php");
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Lojas</a></li>
-                <li><a href="#">Contato</a></li>
+                <?php foreach($menu as $item) { ?>
+                    <li><a href="#"><?= $item ?></a></li>
+                <?php } ?>
             </ul>
         </nav>
     </header>
@@ -49,12 +47,9 @@ include("pratos.php");
     <footer>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Lojas</a></li>
-                <li><a href="#">Contato</a></li>
+                <?php foreach($menu as $item) { ?>
+                    <li><a href="#"><?= $item ?></a></li>
+                <?php } ?>
             </ul>
         </nav>
     </footer>
